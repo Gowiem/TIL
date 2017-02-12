@@ -7,5 +7,5 @@ Steps:
 ```
 kube annotate services SERVICE_NAME service.beta.kubernetes.io/aws-load-balancer-backend-protocol=http
 kube annotate services SERVICE_NAME service.beta.kubernetes.io/aws-load-balancer-ssl-cert=AWS_CERT
-kube annotate services SERVICE_NAME service.beta.kubernetes.io/aws-load-balancer-ssl-port=443
+kube annotate services SERVICE_NAME service.beta.kubernetes.io/aws-load-balancer-ssl-ports='443'
 ```
