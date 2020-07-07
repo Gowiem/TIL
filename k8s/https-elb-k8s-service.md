@@ -1,4 +1,4 @@
-# Creating a K8ns Service that uses a AWS's ELB and serves traffic over HTTPs
+# Creating a K8s Service that uses a AWS's ELB and serves traffic over HTTPs
 
 Steps:
 
